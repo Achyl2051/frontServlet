@@ -1,14 +1,19 @@
+<%@ page import='etu2051.framework.servlet.*' %>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title> fs </title>
+	<title> FrontServlet </title>
 </head>
 <body>
-	<h1> Page accueil vers meme servlet </h1>
-	<form action="FrontServlet" method="GET"> 
-		input 1:<input type="text" name="i1"> </input>
-		input 2:<input type="text" name="i2"> </input>
+	<h1> teste FrontServlet: </h1>
+	<form action="url/FrontServlet" method="GET"> 
+		entry 1:<input type="text" name="i1"> </input>
+		<br>
+		<br>
+		entry 2:<input type="text" name="i2"> </input>
+		<br>
+		<br>
 		<input type="submit" value="Insert"> </body>
 	</form>
 </body>
