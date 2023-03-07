@@ -1,4 +1,4 @@
-package etu2051.framework.servlet;
+package etu2051.framework;
 
 public class Mapping {
     String className;
